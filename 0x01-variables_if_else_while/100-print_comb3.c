@@ -5,7 +5,7 @@
  * Return: (0) means success
  */
 
-int main(voi)
+int main(void)
 {
 	int i = 0;
 	int j = i + 1;
