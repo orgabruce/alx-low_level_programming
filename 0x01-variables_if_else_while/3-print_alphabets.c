@@ -15,8 +15,7 @@ int main(void)
 		x++;
 	}
 
-	char X = 'A';
-
+	x = 'A';
 	while (X <= 'Z')
 	{
 		putchar (X);
