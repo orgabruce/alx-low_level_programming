@@ -16,10 +16,10 @@ int main(void)
 	}
 
 	x = 'A';
-	while (X <= 'Z')
+	while (x <= 'Z')
 	{
-		putchar (X);
-		X++;
+		putchar (x);
+		x++;
 	}
 
 	putchar ('\n');
