@@ -5,7 +5,7 @@
 
 /**
  * main - checks negative, zero or positive
- * Random: 0
+ * Return: 0
 */
 int main(void)
 {
