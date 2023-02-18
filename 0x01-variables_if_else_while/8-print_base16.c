@@ -2,7 +2,7 @@
 
 /**
  * main - is entry point
- * return - main output
+ * Return: (0) - mains output
  */
 
 int main(void)
@@ -21,6 +21,8 @@ int main(void)
 		putchar (x);
 		x++;
 	}
+
+	putchar ('\n');
 
 	return (0);
 }
