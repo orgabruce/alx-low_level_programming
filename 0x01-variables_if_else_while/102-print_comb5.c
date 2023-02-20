@@ -17,7 +17,7 @@ int main(void)
 		{
 			int c3;
 
-			for (c3 = 0; c3 <= 9; c3++)
+			for (c3 = c1; c3 <= 9; c3++)
 			{
 				int c4;
 
