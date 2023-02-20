@@ -21,7 +21,7 @@ int main(void)
 			{
 				int c4;
 
-				for (c4 = c3 + 1; c4 <= 9; c4++)
+				for (c4 = c2 + 1; c4 <= 9; c4++)
 				{
 					putchar ('0' + c1);
 					putchar ('0' + c2);
