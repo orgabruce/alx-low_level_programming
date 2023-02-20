@@ -29,7 +29,9 @@ int main(void)
 					putchar ('0' + c3);
 					putchar ('0' + c4);
 
-					if ((c1 != 9) && (c2 != 8) && (c3 != 9) && (c4 != 9))
+					if ((c1 == 9) && (c2 == 8) && (c3 == 9) && (c4 == 9))
+						;
+					else
 					{
 						putchar (',');
 						putchar (' ');
