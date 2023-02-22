@@ -15,33 +15,37 @@ void print_to_98(int n)
 
 		while (i <= 98)
 		{
-			if (i == 98)
+			if (i != 98)
+			{
+				printf("%d, ", i);
+			}
+
+			else
 			{
 				printf("%d\n", i);
 			}
-			else
-			{
-				printf("%d ,", i);
-			}
+
 			i++;
 		}
 	}
-	else if (n > 98)
-	{
-		int i = n;
 
-		while (i >= 98)
+	else
+	{
+		int j = n;
+
+		while (j >= 98)
 		{
-			if (i == 98)
+			if (j != 98)
 			{
-				printf("%d\n", i);
+				printf("%d, ", j);
 			}
+
 			else
 			{
-				printf("%d ,", i);
+				printf("%d\n", j);
 			}
-			i--;
+
+			j--;
 		}
 	}
 }
-
