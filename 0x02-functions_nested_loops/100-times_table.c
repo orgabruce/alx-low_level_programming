@@ -3,6 +3,7 @@
  * print_times_table- times table of input n
  * @n: input to generate times table fo
  */
+
 void print_times_table(int n)
 {
 	int i = 0;
