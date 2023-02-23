@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isdgit - checks if input is a digit
+* _isdigit - checks if input is a digit
 * @c: input variable
 * Return: 1 if digit else 0
 */
