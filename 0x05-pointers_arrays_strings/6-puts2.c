@@ -17,13 +17,16 @@ void puts2(char *s)
 		s++;
 	}
 
-	for (i = 0; i < length; i++)
+	while(*s != '\0')
 	{
-		if ((i % 2) == 0)
+		for (i = 0; i < length; i++)
 		{
-			_putchar(s[i]);
-			_putchar(' ');
+			if ((i % 2) == 0)
+			{
+				_putchar(s[i]);
+			}
 		}
+		
 	}
 	_putchar('\n');
 }
