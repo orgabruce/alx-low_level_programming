@@ -6,18 +6,18 @@
  * Return: nothing
  */
 
-void puts2(char *s)
+void puts2(char *str)
 {
 	int length = 0;
 	int i;
 
-	while (*s != '\0')
+	while (*str != '\0')
 	{
 		length++;
-		s++;
+		str++;
 	}
 
-	while (*s != '\0')
+	while (*str != '\0')
 	{
 		for (i = 0; i < length; i++)
 		{
@@ -26,7 +26,7 @@ void puts2(char *s)
 				_putchar(s[i]);
 			}
 		}
-		s++;
+		str++;
 	}
 	_putchar('\n');
 }
