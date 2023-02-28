@@ -9,6 +9,7 @@
 void print_rev(char *s)
 {
 	int l = 0;
+	int i = l;
 
 	while (*s != '\0')
 	{
@@ -16,8 +17,6 @@ void print_rev(char *s)
 		s++;
 	}
 	s--;
-
-	int i = l;
 
 	while (i > 0)
 	{
