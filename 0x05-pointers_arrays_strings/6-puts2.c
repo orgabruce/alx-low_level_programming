@@ -17,7 +17,7 @@ void puts2(char *s)
 		s++;
 	}
 
-	while(*s != '\0')
+	while (*s != '\0')
 	{
 		for (i = 0; i < length; i++)
 		{
@@ -26,7 +26,7 @@ void puts2(char *s)
 				_putchar(s[i]);
 			}
 		}
-		
+		s++;
 	}
 	_putchar('\n');
 }
