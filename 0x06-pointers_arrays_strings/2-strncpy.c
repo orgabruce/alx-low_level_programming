@@ -12,6 +12,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int dlen = 0;
 	int i = 0;
+	char *p = char *r = dest;
 
 	while (*dest != '\0')
 	{
@@ -23,7 +24,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		if (i < n)
 		{
-			*(dest + i) = *(src + i);
+			*(p + i) = *(src + i);
 		}
 		else
 		{
@@ -32,5 +33,5 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 	}
 
-	return (dest);
+	return (r);
 }
