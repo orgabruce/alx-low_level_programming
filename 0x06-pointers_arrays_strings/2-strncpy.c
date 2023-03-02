@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest++;
 	}
 
-	while (i < dlen)
+	while (i <= dlen)
 	{
 		if (i < n)
 		{
