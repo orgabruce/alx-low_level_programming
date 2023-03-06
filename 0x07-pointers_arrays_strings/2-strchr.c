@@ -4,7 +4,7 @@
  * _strchr - function locates a character in a string
  * @s: pointer to first string character
  * @c: character to search for
- * Return: pointer to character
+ * Return: 0 meaning success
  */
 
 char *_strchr(char *s, char c)
@@ -17,4 +17,5 @@ char *_strchr(char *s, char c)
 			return (&s[c]);
 		c++;
 	}
+	return (0);
 }
