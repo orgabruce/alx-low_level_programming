@@ -9,7 +9,7 @@
 
 int real_sqrt_recursion_calc(int n, int i)
 {
-	if (i * i >)
+	if (i * i > n)
 		return (-1);
 	if (i * i == n)
 		return (i);
