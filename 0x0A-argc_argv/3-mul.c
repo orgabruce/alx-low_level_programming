@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 1 || argc == 2)
 	{
-		printf("Error: check number of input\n");
+		printf("Error\n");
 		return (1);
 	}
 	else
